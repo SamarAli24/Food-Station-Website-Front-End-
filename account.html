@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+  
+ button{
+  background-color: grey;
+  margin:14px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+form{
+ 
+   width:50%; 
+   margin-left:26%; 
+   margin-top:3%; 
+   
+   
+   padding: 20px 20px 30px 20px;
+   border-radius: 5px;
+   
+}
+
+
+
+input{
+      background-color:#ddd;
+      outline: none;
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+
+}
+
+h2{
+  text-align: center;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="style-3.css">
+<link rel="shortcut icon" type="image/png" href="images/tab icon.png">
+  <!--jQuery library-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Bootstrap library -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Popper JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script type="text/javascript">
+
+    function signupForm(){ 
+     var fullname=document.signup.fullN.value;
+     var email=document.signup.email.value;
+     var cnum=document.signup.contact.value;
+     var password1=document.signup.pass1.value;
+     var password2=document.signup.pass2.value; 
+     
+     if (fullname==null){  
+      alert("Name can't be blank");  
+      return false;  
+  } 
+  
+    else if (email==null){  
+      alert("email can't be blank");  
+      return false;  
+  }
+  else if (cnum==null){  
+      alert("Number can't be blank");  
+      return false;  
+  }
+  
+   else if(password1 != password2){  
+      alert("Password does not Matched , Please try again !");  
+      return false;  
+   }  
+      window.alert("Congratulations ! Your Account has been created"); 
+}  
+  </script>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light  menubar">
+  <a class="navbar-brand main-heading" href="index.html">Food Station</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text" href="#">Offers <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text" href="AllRestaurant.html">All Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text" href="about.html" target="_blank">About Us</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav><br>
+  
+<form name="signup" method="post" action="index.html" onsubmit="return signupForm()">
+
+<div class="form-group1">
+
+    <b><h2>Create Account</h2><b><br>
+
+  
+    <b><label for="FirstName">Full Name:</label><b>
+    <br>
+    <input type="First Name" class="form-control" id="FirstName"  placeholder="Enter Full Name" name="fullN">
+     </div>
+
+    
+  <br>
+
+  <div class="form-group4">
+    <label for="Email1"> Email Address:</label>
+    <br>
+    <input type="email" class="form-control" id="Email1" placeholder="Enter email" name="email"><br>
+
+  </div>
+
+
+  <div class="form-group5">
+    <label for="ContactNumber">Contact Number:</label>
+    <br>
+    <input type="number" class="form-control" id="ContactNumber" placeholder="Enter your Contact Number" name="contact"> 
+  </div>
+  <br>
+  <div class="form-group6">
+    <label for="Password1">Password:</label><br>
+    <input type="password" class="form-control" placeholder="Password" name="pass1">
+    
+  </div>
+  
+
+  <br>
+  <div class="form-group7">
+    <label for="Password2"> Confirm Password:</label><br>
+    <input type="password" class="form-control" name="pass2" placeholder="Password">
+    <br>
+  </div>
+  <br>
+   <button class="signup-btn" type="Submit" >SignUp</button>
+</div>
+</form>
+
+<!-- <script>
+   function checkPassword(form) 
+   { 
+                 exampleInputPassword1 = form.exampleInputPassword1.value; 
+                exampleInputPassword2 = form.exampleInputPassword2.value; 
+  
+                // If password not entered 
+                if (exampleInputPassword1 == '')  
+                    alert ("This field cannot be remain empty"); 
+                      
+                // If confirm password not entered 
+                else if (exampleInputPassword2 == '')  
+                    alert ("Enter password again to confirm"); 
+          
+                // If Not same return False.     
+                else if (exampleInputPassword1 != exampleInputPassword2) { 
+                    alert ("\n Password did not match try again...") 
+                    return false; 
+                } 
+  
+                // If same return True. 
+                else{ 
+                    alert("Password Matched ! ") 
+                    return true; 
+                } 
+            
+            }       
+
+             </script> -->
+</body>
+</html>

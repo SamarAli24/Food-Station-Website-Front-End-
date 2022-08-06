@@ -1,0 +1,387 @@
+.menubar{
+	
+	background-color:#ff5a00 !important;
+
+}
+.text{
+	color: white !important;
+	padding: 16px !important;
+}
+.menu{
+	float: right !important;
+}
+.btn{
+	padding:10px  !important;
+}
+.main-heading{
+		color: white !important;
+		font-weight:bolder !important;
+		font-size: 28px !important;
+		margin-left: 65px !important;
+}
+.back-image{
+	background-color: grey;
+	height: 450px;	
+	background-image: url("../project/images/food3.jpg");
+	
+
+}
+.search-bar{
+	margin-left: 200px;
+
+	
+}
+.find-bar{
+	width: 65%;	
+	padding: 6px 10px !important;
+	border-radius: 5px;
+	border:1px solid black;
+	margin-top: 250px;
+	
+}
+.search-btn{
+	margin-left: 10px;
+}
+.img1{
+	height:450px;
+	width:100%;
+}
+.find-btn{
+
+	margin-left:20px;
+	border-radius: 8px;
+	line-height: 1.25;
+	padding: 9px 20px !important;
+	background-color:#ff5a00 !important;
+	border:none;
+	color: white;
+
+}
+.login-btn{
+	width: 100%;
+	margin-left:20px;
+	border-radius: 8px;
+	line-height: 1.25;
+	padding: 9px 20px !important;
+
+	background-color:#ff5a00 !important;
+	border:none;
+	color: white;
+
+}
+.signup-btn{
+	width: 100%;	
+	border-radius: 8px;
+	line-height: 1.25;
+	padding: 9px 20px !important;
+	background-color:#ff5a00 !important;
+	border:none;
+	color: white;
+}
+.acc-text{
+	color: #ff5a00;
+    text-decoration: none !important;
+    
+    font-family: open_sansbold!important;
+
+}
+.find-btn:hover{
+	background-color: #555555 !important;
+}
+
+button{
+
+ 
+  margin-left:160px;
+  
+}
+
+p{
+  text-align:center; 
+}
+.login-head{
+  text-align: center !important;
+}
+
+	/*all restaurant css*/
+.inner-slider{
+	height: 360px !important;
+	width: 900px !important;
+    margin-left: 54px !important;
+}
+
+.footer-container{
+	margin-top: 600px;
+}
+.main-foot{
+	height: 100px ;
+	width:100% ;	
+	background-color: black;
+}
+.follow-i, .footerlinks, .popular-links {
+    border-bottom: 1px solid #3b3b3b;
+}
+.footerlinks {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3b3b3b;
+}
+.footerlinks a:first-child {
+    padding-left: 0;
+    
+}
+.p-y-lg {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.footerlinks a{
+	color:#999;
+	padding: 0 12.4px;
+	transition: color .2s ease-out;
+	text-decoration: none !important;
+
+}
+.footerlinks a:hover{
+	color: #ff5a00;
+}
+.container{
+    max-width: 1007px !important;
+}
+.p-4{
+	
+    margin: 0 0 10px !important;
+    color: #999;
+    background-color: black;
+    margin-bottom: 0px !important;
+    
+}
+a.text-dark{
+	line-height: 3em !important;
+	color: white !important;
+	text-decoration: none !important;
+	
+}
+.text-dark a:hover{
+	color: #ff5a00!important;
+}
+.section-heading {
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--neutral-black);
+    line-height: 1.3;
+}
+.play-store{
+	margin-top: 200px;
+}
+.section-description {
+    color: var(--neutral-black);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.25;
+    margin: 0 auto;
+    width: 34%;
+    margin-bottom: 24px;
+}
+  .mobile-vertical {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.app-link img {
+    height: 188px;
+    width: auto;
+    
+}
+.app-link2 img {
+    height: 185px;
+    width: auto;
+    
+}
+.flex{
+	display: flex;
+}
+.app-link:last-child {
+    margin-left: 16px;
+}
+.title-flat {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.25em;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 53px;
+    margin-top: 30px;
+    }
+.lane-component{
+	
+	/*height: 185px;
+	width: 95%;
+	margin-left: 53px;
+	background-color: */
+	display: flex;
+	width: 90%;
+	margin-left: 49px;
+
+}
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+.lane-component::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.div-1{
+	height: 295px;
+	width: 400px;
+	background-color: black;
+	background-image: url("https://images.deliveryhero.io/image/fd-pk/LH/s0sl-listing.jpg?width=400&height=292")
+	
+}
+.mr-10 {
+	margin-right: 10px;
+}
+
+ul{
+	padding: 0px !important;
+	list-style-type:none;
+}
+.rest-info{
+	display: block;
+    padding: 8px 0 0;
+    color: #707070;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 2;
+
+}
+
+.rating-1{
+    fill: rgb(39,111,191,1);
+    line-height: 1.3em;
+}
+
+.main-1{
+	
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.5rem 0px 1rem; 
+}
+.heading-1{
+	font-size: 1.3rem;
+    font-weight: 700;
+    padding: 4px 16px 0 0;
+}
+
+
+/*ul.my-row {
+  display: table;
+  width: 100%;
+  
+}
+
+ul.my-row > li {
+  display: table-cell;
+}*/
+.heading-2{
+	font-size: 1.3rem;
+    font-weight: 700;
+    padding: 4px 16px 0 0;
+}
+button{
+
+  margin-left:160px; 
+}
+
+p{
+  text-align:center; 
+}
+h2.logintext{
+    margin-left: auto !important;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+#customBtn, #gCustomBtn {
+    display: table;
+    background: #fff;
+    width: 100%;
+    color: #757575;
+    border-radius: 2px;
+    white-space: nowrap;
+    border: 1px solid #acacac;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.24), 0 0 2px 0 rgba(0,0,0,.12);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.col-xs-8 a{
+   
+    padding-top: 1rem !important;
+    font-size: 14px;
+    float: right;
+    color: gray;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.img-border{
+	border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-img{
+	height: 300px;
+	width: 90%;
+	background-color:grey;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.order-links{
+	
+	color: black;
+
+	
+}
+.order-links:hover{
+	
+	color: #ff5a00;
+	border-bottom: 2px solid #ff5a00;
+	font-weight: 700px !important;
+}
+.nav-holder{
+	margin-left: 50px;
+}
+.menus{
+	margin-left: 50px;
+
+
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.menu-info{
+	margin-left: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+
+ 
